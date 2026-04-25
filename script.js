@@ -3,7 +3,7 @@ let nodes = [];
 let positions = {};
 let assignment = {};
 let dragging = null;
-let canvas, ctx;
+let canvas, ctx; 
 
 function loadProblem() {
     document.getElementById("home").classList.add("hidden");
