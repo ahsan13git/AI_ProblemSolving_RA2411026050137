@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map Coloring CSP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home" class="center">
+    <h1>Map Coloring Problem</h1>
+    <button onclick="loadProblem()">Start</button>
+</div>
+
+<div id="app" class="hidden">
+    <div class="sidebar">
+        <h2>MAP COLORING</h2>
+        <div class="subtitle">CSP Solver</div>
+
+        <div id="controls"></div>
+
+        <button onclick="goHome()">Back</button>
+    </div>
+
+    <div class="main">
+        <canvas id="canvas"></canvas>
+        <pre id="output"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
