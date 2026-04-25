@@ -10,24 +10,24 @@ RA2411026050137
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 (https://ahsan13git.github.io/AI_ProblemSolving_RA2411026050137/)
 ---
 
 ## Problem 5: Map Coloring (CSP)
 
-### 📌 Problem Description
+###  Problem Description
 
 The Map Coloring Problem involves assigning colors to regions such that no two adjacent regions share the same color.
 
-### 🧠 Algorithms Used
+###  Algorithms Used
 
 * Constraint Satisfaction Problem (CSP)
 * Backtracking Algorithm
 * Constraint Checking
 
-### ⚙️ Execution Steps
+###  Execution Steps
 
 1. Run the Python file:
    
@@ -42,14 +42,14 @@ python mapcoloring/app.py
    * Select colors
    * Click Solve
 
-### ✅ Sample Output
+###  Sample Output
 
 A → Red  
 B → Green  
 C → Blue  
 D → Red  
 
-### 📷 Output Screenshot
+###  Output Screenshot
 
 ![Output](mapcoloring/images/output.png)
 
