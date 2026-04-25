@@ -45,10 +45,10 @@ python mapcoloring/app.py
 
 ### ✅ Sample Output
 
-A → Red
-B → Green
-C → Blue
-D → Red
+A → Red  
+B → Green  
+C → Blue  
+D → Red  
 
 ### 📷 Output Screenshot
 
