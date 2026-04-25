@@ -53,11 +53,3 @@ D → Red
 
 ![Output](mapcoloring/images/output.png)
 
-## 📁 Folder Structure
-
-```
-mapcoloring/
-├── app.py
-└── images/
-    └── output.png
-```
