@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background: #1e1e2e;
+    color: #e5e7eb;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.center h1 {
+    color: #a78bfa;
+    margin-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(90deg, #7c3aed, #9333ea);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background: #2a2a3e;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    color: #a78bfa;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    color: #6b7280;
+    font-size: 11px;
+    margin-bottom: 16px;
+}
+
+.section {
+    color: #6b7280;
+    font-size: 11px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    background: #1e1e2e;
+    border: none;
+    color: white;
+    font-family: inherit;
+}
+
+.main {
+    flex: 1;
+    padding: 12px;
+}
+
+canvas {
+    background: #12121f;
+    width: 100%;
+    height: 450px;
+}
+
+pre {
+    margin-top: 10px;
+    color: #22c55e;
+    font-size: 13px;
+}
